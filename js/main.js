@@ -55,21 +55,6 @@ equalBtn.addEventListener("click", () => {
 
 // Функция для вычисления результата
 
-// let isNegetive = false;
-
-// operatorsBtn.forEach((button) => {
-//   button.addEventListener("click", () => {
-//     if ((Screen.textContent = "-" + Screen.textContent)) {
-//       Screen.textContent = "-";
-//       return;
-//     }
-
-//     if (Screen.textContent === "" || Screen.textContent === "0") {
-//       Screen.textContent = "-";
-//     }
-//   });
-// }); --- доделать проверка на минус
-
 function calculate() {
   const num1 = parseFloat(firstNumber);
   const num2 = parseFloat(secondNumber);
